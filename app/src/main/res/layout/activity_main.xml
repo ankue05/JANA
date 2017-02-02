@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="org.jana.ankue.jana.MainActivity">
+
+    <Button
+        android:layout_width="45pt"
+        android:layout_height="30pt"
+        android:layout_marginBottom="41dp"
+        android:id="@+id/btn_sr_listen"
+        android:background="@android:drawable/ic_btn_speak_now"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:id="@+id/tv_speechResults" />
+
+</RelativeLayout>
